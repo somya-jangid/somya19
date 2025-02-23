@@ -1,0 +1,1 @@
+const mongoose = require('mongoose');const movieSchema = new mongoose.Schema({ title: String, description: String, genres: Array, cast: Array, director: String, year: Number, rating: String, posterUrl: String, trailerUrl: String, videoUrl: String });module.exports = mongoose.model('Movie', movieSchema);
