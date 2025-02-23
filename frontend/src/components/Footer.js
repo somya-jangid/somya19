@@ -1,0 +1,1 @@
+import React from 'react';function Footer() {return (<footer className="footer"><ul><li>FAQ</li><li>Help Center</li><li>Account</li><li>Terms of Use</li><li>Privacy</li><li>Cookie Preferences</li><li>Corporate Information</li></ul><div className="social-media">Social Media Icons</div><p>&copy; 2023 Netflix-like Website</p></footer>);}export default Footer;
